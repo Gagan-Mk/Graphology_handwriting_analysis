@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+
+# ML artifacts (too large)
+*.h5
+*.pt
+*.pth
+
+# Data & outputs
+results/
+rf_model_output/
+images/
+debug_margins.png
+features_mapped1.csv
+
+# OS / temp
+.ipynb_checkpoints/
